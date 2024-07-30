@@ -87,10 +87,6 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
@@ -98,7 +94,7 @@ import {
   
   const experiences = [
     {
-      title: "Web Developer",
+      title: "MERN Stack Developer",
       company_name: "Shopify",
       icon: shopify,
       iconBg: "#383E56",
@@ -113,7 +109,7 @@ import {
     {
       title: "Three.js Developer",
       company_name: "3D Portfolio",
-      icon: starbucks,
+      icon: threejs,
       iconBg: "#383E56",
       date: "Jan 2024 - April 2024",
       points: [
@@ -184,7 +180,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: jobit,
       source_code_link: "https://github.com/KRRAHUL69/Portfolio",
     },
     {
@@ -209,6 +205,27 @@ import {
       source_code_link: "https://github.com/KRRAHUL69/E-Commerce-App",
     },
     {
+      name: "Todo-App",
+      description:
+        "Web application that allows users to add, update, delete or complete the todo job.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://github.com/KRRAHUL69/ToDo-App",
+    },
+    {
       name: "Twitter Sentiment Analysis",
       description:
         "A Machine Learning Project based on ML techniques like SVM, dataset taken from recent Israel-Palestine war tweets of users posted on Twitter.",
@@ -222,7 +239,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: tripguide,
+      image: jobit,
       source_code_link: "https://github.com/KRRAHUL69/Twitter-Sentiment-Analysis",
     },
   ];
